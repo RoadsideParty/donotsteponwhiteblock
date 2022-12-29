@@ -6,7 +6,7 @@ interface IBlock {
     width: number,
     height: number
 }
-class block {
+export default class Block {
     state: TState
     color: TColor
     block: IBlock
